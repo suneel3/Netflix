@@ -1,0 +1,75 @@
+
+@import url('https://fonts.cdnfonts.com/css/netflix-font');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    filter: contrast(150%);
+  
+}
+.logo{
+    width: 167px;
+    padding: 5px;
+ 
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15rem;
+    margin: 15px auto;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+}
+nav ul{
+    display: flex;
+    list-style: none;
+
+}
+nav ul li a{
+
+    background-color: rgb(229, 9, 20);
+    margin: 0px 5px;
+    text-decoration: none;
+  
+    font-family: netflix sans,helvetica neue,segoe ui,roboto,ubuntu,sans-serif;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+   padding: 8px 12px;
+    font-weight: 500;
+
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    justify-content: center;
+  
+    width: 50%;
+    margin: 20rem auto;
+
+
+    
+}
+.main p {
+    color: white;
+    font-family:  netflix sans,helvetica neue,segoe ui,roboto,ubuntu,sans-serif;
+    text-align: center;
+
+    
+}
+.heading{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.sub-heading{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 10px ;
+}
